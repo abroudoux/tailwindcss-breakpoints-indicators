@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-bp-indicators",
+  "description": "",
+  "author": "Arthur BROUDOUX <abroudoux>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abroudoux/tailwind-bp-indicators.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
