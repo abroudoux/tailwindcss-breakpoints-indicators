@@ -2,7 +2,6 @@
 
 ![npm latest version](https://img.shields.io/npm/v/tailwindcss-breakpoints-indicators?style=for-the-badge)
 ![license](https://img.shields.io/npm/l/tailwindcss-breakpoints-indicators?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/abroudoux/tailwindcss-breakpoints-indicators)
 
 ## 💻・About
 
@@ -27,7 +26,23 @@ Edit your `index.html` at the root of your project to start using `tailwindcss-b
 </script>
 ```
 
-### 3. Enjoy !
+### 3. Exclude dependency from buil
+
+#### Vite
+
+```javascript
+export default defineConfig({
+  // ...
+  build: {
+    rollupOptions: {
+      external: ["tailwindcss-breakpoints-indicators"],
+    },
+  },
+  // ..
+});
+```
+
+### 4. Enjoy !
 
 ## 🧑‍🤝‍🧑・Contributing
 
