@@ -1,12 +1,12 @@
 {
   "name": "tailwindcss-breakpoints-indicators",
-  "description": "",
+  "description": "The tailwindcss-breakpoints-indicators package is a handy tool for displaying breakpoints TailwindCSS",
   "author": "Arthur BROUDOUX <abroudoux>",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abroudoux/tailwind-bp-indicators.git"
+    "url": "https://github.com/abroudoux/tailwindcss-breakpoints-indicators.git"
   },
   "main": "index.js",
   "types": "index.d.ts",

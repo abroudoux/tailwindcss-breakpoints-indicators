@@ -5,7 +5,7 @@
 
 ## 💻・About
 
-The tailwindcss-breakpoints-indicators package is a handy tool for displaying breakpoints within the TailwindCSS framework.
+The tailwindcss-breakpoints-indicators package is a handy tool for displaying breakpoints TailwindCSS
 
 ## 🎯・Installation
 
@@ -62,6 +62,7 @@ To contribute to `tailwindcss-breakpoints-indicators` in development, follow the
 
 - [ ] Create automatic setup
 - [ ] Ability to choose indicator style
+- [ ] Ignore dependency during project compilation (Webpack, Parcel, Babel)
 
 ## 📑・Licence
 
