@@ -69,4 +69,6 @@ function displayTailwindBreakPointsIndicators() {
   updateIndicators();
 }
 
-displayTailwindBreakPointsIndicators();
+module.exports = displayTailwindBreakPointsIndicators;
+
+console.log("Tailwind Breakpoints Indicators loaded");
